@@ -22,17 +22,29 @@ We agree on the scope, price, and timeline before work begins. You work directly
 
 | Project | What it does | Technologies |
 | --- | --- | --- |
-| [SMCLT · Rinkos Struktūra LT](https://github.com/builtbyuba/SMCLT) | Lithuanian market structure indicator with support and resistance zones, BOS, direction changes, EMA 200, and a compact dashboard. | Pine Script v6, TradingView |
+| [Market Regime · REGIME](https://github.com/builtbyuba/MarketRGM) | Market-regime dashboard combining trend direction, trend strength, volatility, momentum, and confirmed higher timeframe context. | Pine Script v6, TradingView |
 | [ProcessDock](https://github.com/builtbyuba/ProcessDock) | Invoice processing with PDF uploads, data validation, and approval workflows. | Python, FastAPI, SQLAlchemy |
 | [PineTester](https://github.com/builtbyuba/PineTester) | Web app for testing a supported subset of Pine Script v5 strategies against historical Binance data. | Web application, Pine Script tooling |
 
-### SMCLT · Rinkos Struktūra LT
+### Featured project · Market Regime
 
-A minimal charting tool with Lithuanian labels and settings. The repository includes the Pine Script source, real TradingView screenshots, installation instructions, and an explanation of how the indicator works.
+**[REGIME — Adaptive Market Intelligence](https://github.com/builtbyuba/MarketRGM)**
 
-[![SMCLT on TradingView](https://raw.githubusercontent.com/builtbyuba/SMCLT/main/docs/images/grafikas.png)](https://github.com/builtbyuba/SMCLT)
+A clean TradingView dashboard that turns market conditions into a compact, readable view. Built in **Pine Script v6** for **BTC and ETH on 1H and 4H charts**, REGIME brings together the current market state and confirmed higher timeframe context.
 
-[Explore SMCLT](https://github.com/builtbyuba/SMCLT)
+- **Market state:** Bull, Bear, Range, or Transition, with a visual history of regime changes.
+- **Higher timeframe context:** compare the chart's state with the last completed higher timeframe candle.
+- **Trend strength, volatility, and momentum:** ADX, relative ATR%, and RSI in one minimal dashboard.
+- **Closed-candle updates:** local values update on confirmed candles; higher timeframe context uses completed candles.
+- **Flexible appearance:** dark and light themes, with independently configurable visual components.
+
+[![REGIME on BTCUSDT 4H](https://raw.githubusercontent.com/builtbyuba/MarketRGM/main/assets/btc-4h.jpg)](https://github.com/builtbyuba/MarketRGM)
+
+*Actual TradingView screenshot. REGIME describes market conditions; it does not provide buy/sell signals or claim trading performance.*
+
+The repository includes the indicator source, real chart examples, installation instructions, and an explanation of the model and its validation limits. Available under **CC BY-NC-SA 4.0** for noncommercial use.
+
+**[Explore Market Regime →](https://github.com/builtbyuba/MarketRGM)**
 
 **More projects:** [InstaDrop](https://github.com/builtbyuba/InstaDrop) · [ClipMind AI](https://github.com/builtbyuba/ClipMind-AI) · [Candrivo](https://github.com/builtbyuba/Candrivo)
 
