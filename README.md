@@ -1,63 +1,83 @@
-# Dom Uba
+# Domantas Ūba
 
-### Website Development · Python Automations · Custom TradingView Pine Script
+### Independent Website Auditor · Custom TradingView Pine Script
 
-Developer based in Lithuania. I build websites, automate repetitive work with Python, and create custom TradingView indicators and chart tools with Pine Script.
+I'm an independent developer based in Lithuania. I audit websites for **security, technical SEO, performance and accessibility**. I explain what I find in plain language and help fix it.
 
-My focus is on clear design, useful features, and straightforward communication. I'm available for freelance projects.
+I also write **custom TradingView indicators in Pine Script**, built around your own rules and charts.
 
-[Get in touch](mailto:ubadomantas@gmail.com)
+[Request an audit](mailto:ubadomantas@gmail.com) · [LinkedIn](https://www.linkedin.com/in/domuba) · [TradingView scripts](https://www.tradingview.com/u/n0x6E6F6F6E65/#published-scripts)
 
-## What I can help with
+---
 
-| Service | What I build |
+## Website audits
+
+AI tools and page builders make it quick to launch a website. My audit checks whether the finished site is secure, fast, findable and usable.
+
+| Area | What I check |
 | --- | --- |
-| **Website Development** | Responsive business websites, landing pages, WordPress sites, and custom web applications. |
-| **Python Automations** | Scripts and tools for repetitive tasks, file processing, and data workflows. |
-| **Custom TradingView Pine Script** | Custom indicators, chart visuals, dashboards, alerts, and updates to existing Pine Script code. |
+| **Security** | HTTPS/TLS, security headers, exposed files and endpoints, safe defaults. Passive checks only, not a penetration test. |
+| **Technical SEO** | Indexing, sitemap and robots.txt, titles and descriptions, structured data, broken links, redirects |
+| **Performance** | Google Lighthouse lab tests on phone and desktop, image weight, render-blocking and unused code |
+| **Accessibility** | Automated WCAG checks: contrast, labels, keyboard focus, touch targets |
+| **AI-built websites** | An independent review of sites made with AI or site builders, before real visitors arrive |
+| **Remediation** | If needed, I fix the issues and run the audit again to confirm they are resolved |
 
-We agree on the scope, price, and timeline before work begins. You work directly with me, from the first conversation to the handover.
+### What you get
 
-## Selected projects
+A clear PDF report written for people, not just developers:
 
-| Project | What it does | Technologies |
+- **An overall score and a score per area** (0–100), with what each one means
+- **Every issue with a priority**, explaining *what I found*, *why it matters* and *what to do*
+- **An action plan**: what to fix now, in the next update, and when convenient
+- **A technical appendix** with evidence for your developer
+
+### A real result
+
+A one-page service website, October 2026 (the client is not named):
+
+| | Before | After |
+| --- | :---: | :---: |
+| **Overall score** | 88 | **100** |
+| Mobile speed (Lighthouse) | 66 | **96** |
+
+What changed: security headers were added, unused URLs now redirect to the homepage, the hero image is lighter and unused scripts were removed, the sitemap was fixed, and structured data and an FAQ section were added.
+
+*Scores are lab measurements from my audit at the time of testing. An audit cannot guarantee search rankings.*
+
+---
+
+## Custom TradingView Pine Script
+
+I build indicators, dashboards, alerts and chart tools in **Pine Script v6**, and I update or fix existing scripts. Tell me your rules and I'll turn them into a clean, readable tool.
+
+| Project | What it does | License |
 | --- | --- | --- |
-| [Market Regime · REGIME](https://github.com/builtbyuba/MarketRGM) | Market-regime dashboard combining trend direction, trend strength, volatility, momentum, and confirmed higher timeframe context. | Pine Script v6, TradingView |
-| [ProcessDock](https://github.com/builtbyuba/ProcessDock) | Invoice processing with PDF uploads, data validation, and approval workflows. | Python, FastAPI, SQLAlchemy |
-| [PineTester](https://github.com/builtbyuba/PineTester) | Web app for testing a supported subset of Pine Script v5 strategies against historical Binance data. | Web application, Pine Script tooling |
-
-### Featured project · Market Regime
-
-**[REGIME — Adaptive Market Intelligence](https://github.com/builtbyuba/MarketRGM)**
-
-A clean TradingView dashboard that turns market conditions into a compact, readable view. Built in **Pine Script v6** for **BTC and ETH on 1H and 4H charts**, REGIME brings together the current market state and confirmed higher timeframe context.
-
-- **Market state:** Bull, Bear, Range, or Transition, with a visual history of regime changes.
-- **Higher timeframe context:** compare the chart's state with the last completed higher timeframe candle.
-- **Trend strength, volatility, and momentum:** ADX, relative ATR%, and RSI in one minimal dashboard.
-- **Closed-candle updates:** local values update on confirmed candles; higher timeframe context uses completed candles.
-- **Flexible appearance:** dark and light themes, with independently configurable visual components.
+| [**REGIME** · Market Regime](https://github.com/builtbyuba/MarketRGM) | Market state (Bull, Bear, Range, Transition) with confirmed higher-timeframe context, ADX, ATR% and RSI in one minimal dashboard | CC BY-NC-SA 4.0 |
+| [**Ichimoku Structure Pro**](https://github.com/builtbyuba/ISP) | Ichimoku with confirmed market structure and a compact multi-timeframe dashboard | CC BY-NC 4.0 |
+| [**PSP** · Chart patterns](https://github.com/builtbyuba/PSP) | Chart patterns, market structure, shared 4H supply and demand zones, and EMA 200 | MIT |
+| [**Rinkos Struktūra LT**](https://github.com/builtbyuba/SMCLT) | A Lithuanian-language SMC structure indicator with zones, EMA 200 and an info table | CC BY-NC-SA 4.0 |
 
 [![REGIME on BTCUSDT 4H](https://raw.githubusercontent.com/builtbyuba/MarketRGM/main/assets/btc-4h.jpg)](https://github.com/builtbyuba/MarketRGM)
 
-*Actual TradingView screenshot. REGIME describes market conditions; it does not provide buy/sell signals or claim trading performance.*
+*Actual TradingView screenshot. My indicators describe market conditions. They do not give buy or sell signals or promise trading results.*
 
-The repository includes the indicator source, real chart examples, installation instructions, and an explanation of the model and its validation limits. Available under **CC BY-NC-SA 4.0** for noncommercial use.
+Related tool: [**PineTester**](https://github.com/builtbyuba/PineTester), a web app for testing a supported subset of Pine Script v5 strategies against historical Binance data.
 
-**[Explore Market Regime →](https://github.com/builtbyuba/MarketRGM)**
+---
 
-**More projects:** [InstaDrop](https://github.com/builtbyuba/InstaDrop) · [ClipMind AI](https://github.com/builtbyuba/ClipMind-AI) · [Candrivo](https://github.com/builtbyuba/Candrivo)
+## Other projects
 
-Each repository explains its scope, setup requirements, and license. AI tools assisted development.
+[ProcessDock](https://github.com/builtbyuba/ProcessDock) (Python business process automation) · [InstaDrop](https://github.com/builtbyuba/InstaDrop) (Android, Kotlin) · [Candrivo](https://github.com/builtbyuba/Candrivo) · [ClipMind AI](https://github.com/builtbyuba/ClipMind-AI)
 
-## Technologies I work with
+Each repository explains its scope, setup and license. AI tools assisted development.
 
-JavaScript · TypeScript · React · Next.js · WordPress · Python · Pine Script · Kotlin · Jetpack Compose
+**Tools I work with:** Python · JavaScript · TypeScript · Next.js · WordPress · Pine Script · Google Lighthouse · axe-core · Playwright
 
-I completed CodeAcademy's Advanced Programming course and continue developing my skills through hands-on projects.
+---
 
-## Let's work together
+## Let's talk
 
-Need a website, a Python automation, or a custom TradingView indicator? Tell me what you want to build, and we can discuss the scope and budget.
+Want your website checked, or need a custom indicator? Tell me what you have in mind. We agree on the scope, timeline and price before any work starts, and you work directly with me.
 
 **Email:** [ubadomantas@gmail.com](mailto:ubadomantas@gmail.com)
