@@ -4,9 +4,9 @@
 
 I'm an independent developer based in Lithuania. I audit websites for **security, technical SEO, performance and accessibility**. I explain what I find in plain language and help fix it.
 
-I also write **custom TradingView indicators in Pine Script**, built around your own rules and charts.
+I also write **custom TradingView indicators in Pine Script**, built around your own rules and charts, and build **Python tools for business process automation**.
 
-[Request an audit](mailto:ubadomantas@gmail.com) · [LinkedIn](https://www.linkedin.com/in/domuba) · [TradingView scripts](https://www.tradingview.com/u/n0x6E6F6F6E65/#published-scripts)
+[Request an audit](https://domantasuba.com) · [LinkedIn](https://www.linkedin.com/in/domuba) · [TradingView scripts](https://www.tradingview.com/u/n0x6E6F6F6E65/#published-scripts)
 
 ---
 
@@ -47,6 +47,48 @@ What changed: security headers were added, unused URLs now redirect to the homep
 
 ---
 
+## Featured projects
+
+### [REGIME · Market Regime](https://github.com/builtbyuba/MarketRGM)
+
+**A compact TradingView dashboard for understanding market conditions.**
+
+REGIME brings trend direction, strength, volatility and momentum into one view. It identifies **Bull, Bear, Range and Transition** states and places them beside confirmed higher-timeframe context, so you can see how the current chart relates to the broader market.
+
+- **Confirmed-candle updates** for the local regime and completed higher-timeframe context.
+- **ADX, ATR% and RSI** summarize trend strength, volatility and momentum.
+- **Regime history and transition markers** show how conditions develop over time.
+- Built in **Pine Script v6**, with defaults designed around **BTC and ETH on 1H and 4H charts**.
+
+[![REGIME on BTCUSDT 4H](https://raw.githubusercontent.com/builtbyuba/MarketRGM/main/assets/btc-4h.jpg)](https://github.com/builtbyuba/MarketRGM)
+
+*Actual TradingView screenshot. REGIME describes market conditions; it does not provide buy or sell signals or promise trading results.*
+
+[Explore REGIME →](https://github.com/builtbyuba/MarketRGM)
+
+### [ProcessDock](https://github.com/builtbyuba/ProcessDock)
+
+**A self-hosted Python platform that turns invoice documents into a structured review workflow.**
+
+ProcessDock helps small businesses reduce repetitive invoice entry and checking. Upload a batch of supported text PDFs, and it separates individual invoices, extracts their fields, validates the data and routes exceptions to a review queue. Processing runs locally without AI, paid services or external APIs.
+
+- **Batch processing:** handle multiple files and multi-invoice PDFs, including invoices spanning several pages.
+- **Validation and policies:** check required fields, totals, known suppliers and duplicate identities; automatically approve valid invoices within a configured amount limit.
+- **Human review:** edit, approve or reject exceptions with the original PDF pages available for reference.
+- **Traceability:** follow document statuses, validation results, policy decisions and audit events.
+- **CSV orders:** import valid rows, review invalid ones and export stored orders.
+
+[![ProcessDock dashboard with synthetic demo data](https://raw.githubusercontent.com/builtbyuba/ProcessDock/main/docs/screenshots/dashboard.png)](https://github.com/builtbyuba/ProcessDock)
+
+**Built with:** Python · FastAPI · Pydantic · SQLAlchemy · Alembic · Pandas · PyMuPDF  
+**Run locally:** Docker Compose or Python 3.12+.
+
+*Supports a documented text-PDF format. OCR and arbitrary invoice layouts are outside the current scope. The current version has no authentication and is intended for trusted local use.*
+
+[Explore ProcessDock →](https://github.com/builtbyuba/ProcessDock)
+
+---
+
 ## Custom TradingView Pine Script
 
 I build indicators, dashboards, alerts and chart tools in **Pine Script v6**, and I update or fix existing scripts. Tell me your rules and I'll turn them into a clean, readable tool.
@@ -58,9 +100,7 @@ I build indicators, dashboards, alerts and chart tools in **Pine Script v6**, an
 | [**PSP** · Chart patterns](https://github.com/builtbyuba/PSP) | Chart patterns, market structure, shared 4H supply and demand zones, and EMA 200 | MIT |
 | [**Rinkos Struktūra LT**](https://github.com/builtbyuba/SMCLT) | A Lithuanian-language SMC structure indicator with zones, EMA 200 and an info table | CC BY-NC-SA 4.0 |
 
-[![REGIME on BTCUSDT 4H](https://raw.githubusercontent.com/builtbyuba/MarketRGM/main/assets/btc-4h.jpg)](https://github.com/builtbyuba/MarketRGM)
-
-*Actual TradingView screenshot. My indicators describe market conditions. They do not give buy or sell signals or promise trading results.*
+*My indicators describe market conditions. They do not give buy or sell signals or promise trading results.*
 
 Related tool: [**PineTester**](https://github.com/builtbyuba/PineTester), a web app for testing a supported subset of Pine Script v5 strategies against historical Binance data.
 
@@ -68,7 +108,7 @@ Related tool: [**PineTester**](https://github.com/builtbyuba/PineTester), a web 
 
 ## Other projects
 
-[ProcessDock](https://github.com/builtbyuba/ProcessDock) (Python business process automation) · [InstaDrop](https://github.com/builtbyuba/InstaDrop) (Android, Kotlin) · [Candrivo](https://github.com/builtbyuba/Candrivo) · [ClipMind AI](https://github.com/builtbyuba/ClipMind-AI)
+[InstaDrop](https://github.com/builtbyuba/InstaDrop) (Android, Kotlin) · [Candrivo](https://github.com/builtbyuba/Candrivo) · [ClipMind AI](https://github.com/builtbyuba/ClipMind-AI)
 
 Each repository explains its scope, setup and license. AI tools assisted development.
 
@@ -80,4 +120,7 @@ Each repository explains its scope, setup and license. AI tools assisted develop
 
 Want your website checked, or need a custom indicator? Tell me what you have in mind. We agree on the scope, timeline and price before any work starts, and you work directly with me.
 
+**Website:** [domantasuba.com](https://domantasuba.com)
+
 **Email:** [ubadomantas@gmail.com](mailto:ubadomantas@gmail.com)
+
